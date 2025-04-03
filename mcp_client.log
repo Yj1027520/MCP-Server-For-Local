@@ -1,0 +1,127 @@
+2025-04-03 15:32:24,595 - MCPClient - INFO - ���� MCP �ͻ��ˣ��������ű�: .\server\proxy_server.py
+2025-04-03 15:32:24,603 - MCPClient - INFO - ��ʼ�� MCP �ͻ���
+2025-04-03 15:32:24,604 - MCPClient - INFO - ʹ��ģ��: qwen-max
+2025-04-03 15:32:24,604 - MCPClient - INFO - �������ӵ��������ű�: .\server\proxy_server.py
+2025-04-03 15:32:24,604 - MCPClient - INFO - ��������������: python .\server\proxy_server.py
+2025-04-03 15:32:24,618 - MCPClient - INFO - ��ʼ���Ự...
+2025-04-03 15:32:25,014 - MCPClient - INFO - �����ӵ���������֧�ֵĹ���: ['proxy_tool_call']
+2025-04-03 15:32:25,014 - MCPClient - INFO - ��������ʽ����ѭ��
+2025-04-03 15:32:38,622 - MCPClient - INFO - �û�����: ����������� �Ϻ�
+2025-04-03 15:32:38,622 - MCPClient - INFO - �����û���ѯ: ����������� �Ϻ�
+2025-04-03 15:32:38,627 - MCPClient - INFO - ���� DashScope API��ģ��: qwen-max
+2025-04-03 15:32:40,166 - MCPClient - INFO - ��⵽���ߵ���JSON
+2025-04-03 15:32:40,167 - MCPClient - INFO - ���ù���: query_weather, ����: {'city_code': '310100'}
+2025-04-03 15:34:46,958 - MCPClient - INFO - �����˳���ִ����������
+2025-04-03 15:34:46,959 - MCPClient - INFO - ������Դ...
+2025-04-03 15:34:49,199 - MCPClient - INFO - 启动 MCP 客户端，服务器脚本: .\server\proxy_server.py
+2025-04-03 15:34:49,199 - MCPClient - INFO - 初始化 MCP 客户端
+2025-04-03 15:34:49,199 - MCPClient - INFO - 使用模型: qwen-max
+2025-04-03 15:34:49,199 - MCPClient - INFO - 正在连接到服务器脚本: .\server\proxy_server.py
+2025-04-03 15:34:49,200 - MCPClient - INFO - 启动服务器进程: python .\server\proxy_server.py
+2025-04-03 15:34:49,226 - MCPClient - INFO - 初始化会话...
+2025-04-03 15:34:49,663 - MCPClient - INFO - 已连接到服务器，支持的工具: ['proxy_tool_call']
+2025-04-03 15:34:49,663 - MCPClient - INFO - 启动交互式聊天循环
+2025-04-03 15:35:00,380 - MCPClient - INFO - 用户输入: 上海天气如何今天
+2025-04-03 15:35:00,380 - MCPClient - INFO - 处理用户查询: 上海天气如何今天
+2025-04-03 15:35:00,384 - MCPClient - INFO - 调用 DashScope API，模型: qwen-max
+2025-04-03 15:35:02,897 - MCPClient - INFO - 检测到工具调用JSON
+2025-04-03 15:35:02,897 - MCPClient - INFO - 调用工具: query_weather, 参数: {'city_code': '310100'}
+2025-04-03 15:35:02,900 - MCPClient - INFO - 工具调用结果: ⚠️ 未知工具: query_weather
+2025-04-03 15:35:02,900 - MCPClient - INFO - 返回给用户的回复: ⚠️ 未知工具: query_weather
+2025-04-03 15:36:13,096 - MCPClient - ERROR - 聊天循环发生异常
+Traceback (most recent call last):
+  File "E:\AI\code\MCP-Server-For-Local\client\common_client.py", line 211, in chat_loop
+    query = input("\n你: ").strip()
+            ^^^^^^^^^^^^^^^
+EOFError
+2025-04-03 15:36:13,295 - MCPClient - INFO - 程序退出，执行清理操作
+2025-04-03 15:36:13,295 - MCPClient - INFO - 清理资源...
+2025-04-03 15:36:16,563 - MCPClient - INFO - 启动 MCP 客户端，服务器脚本: .\server\proxy_server.py
+2025-04-03 15:36:16,564 - MCPClient - INFO - 初始化 MCP 客户端
+2025-04-03 15:36:16,564 - MCPClient - INFO - 使用模型: qwen-max
+2025-04-03 15:36:16,564 - MCPClient - INFO - 正在连接到服务器脚本: .\server\proxy_server.py
+2025-04-03 15:36:16,565 - MCPClient - INFO - 启动服务器进程: python .\server\proxy_server.py
+2025-04-03 15:36:16,585 - MCPClient - INFO - 初始化会话...
+2025-04-03 15:36:17,041 - MCPClient - INFO - 程序退出，执行清理操作
+2025-04-03 15:36:17,041 - MCPClient - INFO - 清理资源...
+2025-04-03 15:37:29,038 - MCPClient - INFO - 启动 MCP 客户端，服务器脚本: .\server\proxy_server.py
+2025-04-03 15:37:29,038 - MCPClient - INFO - 初始化 MCP 客户端
+2025-04-03 15:37:29,039 - MCPClient - INFO - 使用模型: qwen-max
+2025-04-03 15:37:29,039 - MCPClient - INFO - 正在连接到服务器脚本: .\server\proxy_server.py
+2025-04-03 15:37:29,039 - MCPClient - INFO - 启动服务器进程: python .\server\proxy_server.py
+2025-04-03 15:37:29,054 - MCPClient - INFO - 初始化会话...
+2025-04-03 15:37:47,178 - MCPClient - INFO - 程序退出，执行清理操作
+2025-04-03 15:37:47,179 - MCPClient - INFO - 清理资源...
+2025-04-03 15:37:47,203 - MCPClient - INFO - 资源清理完成
+2025-04-03 15:38:22,332 - MCPClient - INFO - 启动 MCP 客户端，服务器脚本: .\server\proxy_server.py
+2025-04-03 15:38:22,333 - MCPClient - INFO - 初始化 MCP 客户端
+2025-04-03 15:38:22,333 - MCPClient - INFO - 使用模型: qwen-max
+2025-04-03 15:38:22,333 - MCPClient - INFO - 正在连接到服务器脚本: .\server\proxy_server.py
+2025-04-03 15:38:22,334 - MCPClient - INFO - 启动服务器进程: python .\server\proxy_server.py
+2025-04-03 15:38:22,346 - MCPClient - INFO - 初始化会话...
+2025-04-03 15:38:36,249 - MCPClient - INFO - 程序退出，执行清理操作
+2025-04-03 15:38:36,249 - MCPClient - INFO - 清理资源...
+2025-04-03 15:38:36,255 - MCPClient - INFO - 资源清理完成
+2025-04-03 15:38:38,173 - MCPClient - INFO - 系统默认编码: cp936, 日志文件编码: utf-8
+2025-04-03 15:38:38,173 - MCPClient - INFO - 启动 MCP 客户端，服务器脚本: .\server\proxy_server.py
+2025-04-03 15:38:38,173 - MCPClient - INFO - 初始化 MCP 客户端
+2025-04-03 15:38:38,174 - MCPClient - INFO - 使用模型: qwen-max
+2025-04-03 15:38:38,174 - MCPClient - INFO - 正在连接到服务器脚本: .\server\proxy_server.py
+2025-04-03 15:38:38,174 - MCPClient - INFO - 启动服务器进程: python server\proxy_server.py
+2025-04-03 15:38:38,185 - MCPClient - INFO - 初始化会话...
+2025-04-03 15:40:32,557 - MCPClient - INFO - 程序退出，执行清理操作
+2025-04-03 15:40:32,558 - MCPClient - INFO - 清理资源...
+2025-04-03 15:40:32,747 - MCPClient - INFO - 程序已通过键盘中断停止
+2025-04-03 15:40:44,250 - MCPClient - INFO - 系统默认编码: cp936, 日志文件编码: utf-8
+2025-04-03 15:40:44,251 - MCPClient - INFO - 启动 MCP 客户端，服务器脚本: .\server\proxy_server.py
+2025-04-03 15:40:44,251 - MCPClient - INFO - 初始化 MCP 客户端
+2025-04-03 15:40:44,252 - MCPClient - INFO - 使用模型: qwen-max
+2025-04-03 15:40:44,252 - MCPClient - INFO - 正在连接到服务器脚本: .\server\proxy_server.py
+2025-04-03 15:40:44,252 - MCPClient - INFO - 启动服务器进程: python server\proxy_server.py
+2025-04-03 15:40:44,270 - MCPClient - INFO - 初始化会话...
+2025-04-03 15:41:05,413 - MCPClient - INFO - 已连接到服务器，支持的工具: ['help', 'proxy_tool_call']
+2025-04-03 15:41:05,413 - MCPClient - INFO - 启动交互式聊天循环
+2025-04-03 15:41:13,262 - MCPClient - INFO - 用户输入: 杭州天气如何
+2025-04-03 15:41:13,262 - MCPClient - INFO - 处理用户查询: 杭州天气如何
+2025-04-03 15:41:13,265 - MCPClient - INFO - 调用 DashScope API，模型: qwen-max
+2025-04-03 15:41:15,649 - MCPClient - INFO - 检测到工具调用JSON
+2025-04-03 15:41:15,650 - MCPClient - INFO - 调用工具: query_weather, 参数: {'city_code': '330100'}
+2025-04-03 15:41:16,409 - MCPClient - INFO - 工具调用结果: 🌍 杭州市
+🌡 温度: 19°C
+💧 湿度: 27%
+🌬 风向: 东北 风力: ≤3 级
+🌤 天气: 晴
+⏰ 更新时间: 2025-04-03 15:35:38
+
+2025-04-03 15:41:16,410 - MCPClient - INFO - 返回给用户的回复: 🌍 杭州市
+🌡 温度: 19°C
+💧 湿度: 27%
+🌬 风向: 东北 风力: ≤3 级
+🌤 天气: 晴
+⏰ 更新时间: 2025-04-03 15:35:38
+
+2025-04-03 15:43:20,650 - MCPClient - ERROR - 聊天循环发生异常
+Traceback (most recent call last):
+  File "E:\AI\code\MCP-Server-For-Local\client\common_client.py", line 240, in chat_loop
+    query = input("\n你: ").strip()
+            ^^^^^^^^^^^^^^^
+EOFError
+2025-04-03 15:43:20,820 - MCPClient - INFO - 程序退出，执行清理操作
+2025-04-03 15:43:20,820 - MCPClient - INFO - 清理资源...
+2025-04-03 15:43:20,827 - MCPClient - INFO - 程序已通过键盘中断停止
+2025-04-03 15:43:24,040 - MCPClient - INFO - 系统默认编码: cp936, 日志文件编码: utf-8
+2025-04-03 15:43:24,040 - MCPClient - INFO - 启动 MCP 客户端，服务器脚本: .\server\proxy_server.py
+2025-04-03 15:43:24,041 - MCPClient - INFO - 初始化 MCP 客户端
+2025-04-03 15:43:24,041 - MCPClient - INFO - 使用模型: qwen-max
+2025-04-03 15:43:24,041 - MCPClient - INFO - 正在连接到服务器脚本: .\server\proxy_server.py
+2025-04-03 15:43:24,041 - MCPClient - INFO - 启动服务器进程: python server\proxy_server.py
+2025-04-03 15:43:24,142 - MCPClient - INFO - 初始化会话...
+2025-04-03 15:43:55,109 - MCPClient - INFO - 已连接到服务器，支持的工具: ['help', 'proxy_tool_call']
+2025-04-03 15:43:55,109 - MCPClient - INFO - 启动交互式聊天循环
+2025-04-03 15:44:11,045 - MCPClient - INFO - 用户输入: 哔哩哔哩目前谁最火
+2025-04-03 15:44:11,045 - MCPClient - INFO - 处理用户查询: 哔哩哔哩目前谁最火
+2025-04-03 15:44:11,048 - MCPClient - INFO - 调用 DashScope API，模型: qwen-max
+2025-04-03 15:44:13,471 - MCPClient - INFO - 检测到工具调用JSON
+2025-04-03 15:44:13,471 - MCPClient - INFO - 调用工具: google_search, 参数: {'query': '哔哩哔哩 最火的UP主'}
+2025-04-03 15:44:13,473 - MCPClient - INFO - 工具调用结果: 未知工具: google_search。可用工具: ['query_weather']
+2025-04-03 15:44:13,473 - MCPClient - INFO - 返回给用户的回复: 未知工具: google_search。可用工具: ['query_weather']
