@@ -1,0 +1,14 @@
+[
+    {
+        "name": "WeatherServer", 
+        "script": "weather_server.py"
+    },
+    {
+        "name": "GoogleSearchServer", 
+        "script": "google_search_server.py"
+    },
+    {
+        "name": "CameraCaptureServer",
+        "script": "capture_server.py"
+    }
+]
